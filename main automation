@@ -1,0 +1,385 @@
+on run {input, parameters}
+	-- 
+	delay 1.518846
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.577966
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 2.600898
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.656401
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 5 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.225932
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 5 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.122145
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 5 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.219959
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 6 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.347449
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 6 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.201723
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 6 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.025868
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 8 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.427170
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 8 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.470785
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 8 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.343500
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 9 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.258962
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 9 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.177605
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 9 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.949523
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 2.018916
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 11 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.112982
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 11 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.105049
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 11 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” tickbox.
+	delay 1.131449
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 1 of group 13 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+on run {input, parameters}
+	-- 
+	delay 0.712862
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.706640
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Submit” button.
+	delay 1.049368
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Submit\" of group 14 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+on run {input, parameters}
+	-- 
+	delay 0.214939
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.187014
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.133269
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of UI Element 1 of row 6 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- I prefer not to say
+	delay 0.127664
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"I prefer not to say\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.252077
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 1 of UI Element 1 of row 7 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- I prefer not to say
+	delay 0.079237
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"I prefer not to say\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.115518
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 3 of UI Element 1 of row 8 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- I prefer not to say
+	delay 0.117159
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"I prefer not to say\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.088055
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 5 of UI Element 1 of row 8 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- I prefer not to say
+	delay 0.088078
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"I prefer not to say\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.063043
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of UI Element 1 of row 8 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.082577
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.156630
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 2 of group 7 of UI Element 1 of row 8 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.264238
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of UI Element 1 of row 12 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.126062
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 4 of group 1 of UI Element 1 of row 12 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.105879
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 1 of UI Element 1 of row 21 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- No military experience/No obligation
+	delay 0.175372
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"No military experience/No obligation\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” tickbox.
+	delay 0.099393
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 1 of UI Element 1 of row 22 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+
+on run {input, parameters}
+	-- 
+	delay 0.924655
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of row 22 of table 1 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.846322
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Submit” button.
+	delay 1.210961
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Submit\" of group 7 of UI Element 1 of scroll area 1 of group 4 of UI Element 1 of scroll area 1 of group 2 of group 2 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+on run {input, parameters}
+	-- 
+	delay 2.784968
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.308401
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Goldman Sachs Careers | Job Search\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌘W
+	delay 0.568274
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"w\" using command down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
