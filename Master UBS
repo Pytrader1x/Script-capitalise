@@ -1,0 +1,577 @@
+on run {input, parameters}
+	-- 
+	delay 12.375315
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"FX Options - Business Analyst - Job Details\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 5.955151
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"FX Options - Business Analyst - Job Details\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 2.298257
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 1 of group 4 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"FX Options - Business Analyst - Job Details\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Sign in” URL.
+	delay 2.492440
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element \"Sign in\" of group 3 of group 3 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"FX Options - Business Analyst - Job Details\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Sign in” button.
+	delay 8.116013
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Sign in\" of group 5 of group 1 of group 5 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"FX Options - Business Analyst - Job Details\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+
+on run {input, parameters}
+	-- 
+	delay 1.537387
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.861134
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.860905
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 1 of group 1 of group 4 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.681976
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.593776
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099180
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098409
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098715
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099785
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply now” button.
+	delay 1.822984
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply now\" of group 1 of group 27 of group 2 of group 4 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Let's get started” button.
+	delay 2.526417
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Let's get started\" of group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 2.065948
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.744138
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.593812
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098551
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099567
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099326
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099710
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099010
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098850
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098551
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099547
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098402
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099719
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099619
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099495
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098649
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099801
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 1.491493
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 5 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Add resume/CV” URL.
+	delay 4.430503
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element \"Add resume/CV\" of group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” button.
+	delay 2.842032
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of group 5 of group 1 of UI Element 1 of scroll area 1 of group 2 of group 6 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.789343
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of radio group 1 of group 2 of group 1 of UI Element 1 of scroll area 1 of group 2 of group 6 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 0.449194
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of radio group 1 of group 2 of group 1 of UI Element 1 of scroll area 1 of group 2 of group 6 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Add file” button.
+	delay 0.707947
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Add file\" of group 3 of group 1 of UI Element 1 of scroll area 1 of group 2 of group 6 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 1.128083
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 1.132444
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 5 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 4.592975
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 1.959734
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 1.414477
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.502092
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.593892
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099132
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099769
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.826037
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.593904
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.265300
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.232307
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.141849
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 1.353436
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 2.649427
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.384714
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.533697
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.724643
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.593762
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099767
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.966831
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 0.708003
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 5 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 1.683383
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 1.227778
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 5 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and continue” button.
+	delay 1.683885
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and continue\" of group 5 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 2.055976
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.346301
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 4 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.468845
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.593794
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099278
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098410
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098705
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098906
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099625
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099743
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098864
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098628
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.098398
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099768
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099809
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Press ⌥
+	delay 0.099380
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\" using option down"
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Send my application” button.
+	delay 1.195973
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Send my application\" of group 10 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window 1 of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+on run {input, parameters}
+	-- 
+	delay 1.159494
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 2 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Application complete\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 1.155747
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 2 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Application complete\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.485273
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 2 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Application complete\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Sign out” button.
+	delay 0.864907
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Sign out\" of group 3 of group 2 of group 1 of group 2 of group 4 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Application complete\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
