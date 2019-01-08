@@ -1,0 +1,573 @@
+on run {input, parameters}
+	-- 
+	delay 0.875488
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Python Software Engineer - FX Athena\" of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Python Software Engineer - FX Athena in London, ENG | JPMorgan Chase & Co.\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.719539
+	set timeoutSeconds to 2.000000
+	set uiScript to "click group 3 of group 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Python Software Engineer - FX Athena in London, ENG | JPMorgan Chase & Co.\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 3.504050
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 2.436999
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Python Software Engineer - FX Athena in London, ENG | JPMorgan Chase & Co.\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “I Accept” button.
+	delay 1.771097
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"I Accept\" of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Privacy Agreement\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+on run {input, parameters}
+	-- 
+	delay 1.821348
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.225492
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 1.404511
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 2 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- No
+	delay 0.622474
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"No\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.775575
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 3 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- No
+	delay 0.800001
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"No\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 1.001536
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 4 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- No
+	delay 0.679014
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"No\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Error - Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+on run {input, parameters}
+	-- 
+	delay 1.052321
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.476762
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.380080
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and Continue” button.
+	delay 2.141268
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and Continue\" of group 77 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Tell Us About Yourself\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+on run {input, parameters}
+	-- 
+	delay 0.842501
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Describe Your Experience\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.771999
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and Continue” button.
+	delay 1.607840
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and Continue\" of group 36 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Describe Your Experience\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+
+on run {input, parameters}
+	-- 
+	delay 0.983154
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Share Your Education\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.235117
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and Continue” button.
+	delay 1.953136
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and Continue\" of group 12 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Share Your Education\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+on run {input, parameters}
+	-- 
+	delay 2.008634
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Bring the window “Things We Need To Know” to the front.
+	delay 0.758987
+	set timeoutSeconds to 2.000000
+	set uiScript to "click window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 2.622421
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 2.293316
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 1 of group 18 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 2.246534
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 3 of group 20 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.875679
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.459448
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 1 of group 22 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 2.439578
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 2 of group 24 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.390787
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.688735
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 2 of group 26 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.252055
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 2 of group 28 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.813399
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” radio button.
+	delay 1.848610
+	set timeoutSeconds to 2.000000
+	set uiScript to "click radio button 1 of group 1 of group 1 of group 30 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and Continue” button.
+	delay 1.066613
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and Continue\" of group 32 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Things We Need To Know\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+on run {input, parameters}
+	-- 
+	delay 0.854307
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.268112
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 2.391227
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 22 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.985233
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 22 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 1.683309
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 25 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to specify
+	delay 0.735627
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to specify\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.646318
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 28 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.646830
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 28 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.896860
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 31 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to specify
+	delay 0.743378
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to specify\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.032884
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to specify
+	delay 1.505420
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to specify\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 1.591009
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 31 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to specify
+	delay 0.686727
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to specify\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.921033
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 0.811455
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 1.506659
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 34 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to say
+	delay 1.284388
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to say\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- 
+	delay 0.864385
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.516941
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 37 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to disclose
+	delay 0.654181
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to disclose\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.944994
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 40 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to disclose
+	delay 0.743143
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to disclose\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 1.195775
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 43 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to specify
+	delay 0.686485
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to specify\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Make a selection from the popupbutton.
+	delay 0.961362
+	set timeoutSeconds to 2.000000
+	set uiScript to "click pop up button 1 of group 46 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Prefer not to specify
+	delay 1.445839
+	set timeoutSeconds to 2.000000
+	set uiScript to "click menu item \"Prefer not to specify\" of menu 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and Continue” button.
+	delay 1.034080
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and Continue\" of group 48 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Diversity Survey\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
+
+
+on run {input, parameters}
+	-- 
+	delay 0.858052
+	set timeoutSeconds to 2.000000
+	set uiScript to "click tool bar 1 of window \"Optional Attachments\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type ''
+	delay 1.948458
+	set timeoutSeconds to 2.000000
+	set uiScript to "keystroke \"\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” tickbox.
+	delay 2.630223
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 1 of UI Element 1 of row 2 of table 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Optional Attachments\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Save and Continue” button.
+	delay 1.082419
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Save and Continue\" of group 27 of UI Element 1 of scroll area 1 of group 1 of group 1 of tab group 1 of splitter group 1 of window \"Optional Attachments\" of application process \"Safari\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout
